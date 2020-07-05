@@ -1,0 +1,37 @@
+/* pages/movie/movie.wxss */
+.movie{
+  height: 300rpx;
+display: flex;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+.movie_image{
+width: 200rpx;
+height: 100%;
+margin-right: 20px;
+}
+.movie_info{
+  flex: 1;
+}
+.movie_cast{
+  display: inline;
+}
+.moive_title{
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.movie_average{
+  color: #faaF00;
+}
+.movie_year_comment_box{
+  display: flex;
+  justify-content: space-between
+}
+.movie_comment{
+  width: 60px;
+  background: rgb(247, 96, 96);
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}

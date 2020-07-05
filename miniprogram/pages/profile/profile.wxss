@@ -1,0 +1,21 @@
+/* pages/profile/profile.wxss */
+.profile{
+  background: #E54847;
+  height: 400rpx;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_imge{
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.userNickName{
+  color: white;
+  font-size: 30px;
+}
